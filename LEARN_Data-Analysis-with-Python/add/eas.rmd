@@ -5,9 +5,7 @@ output: html_document
 
 
 ```{r}
-library(openxlsx)
-df<-read.xlsx('D:/Data Visualization/add/datasets/panjang_jalan__diperbaiki.xlsx')
-
+df <- read.csv("add/datasets/agustus-banyaknya-penyakit-utama-yang-ditemukan-di-puskesmas-menurut-jenis-penyakit-tahun-2023.csv", sep = ";")
 ```
 drop collumns that not make sense
 ```{r}
